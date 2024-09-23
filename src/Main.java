@@ -42,10 +42,10 @@ public class Main {
         System.out.println("Задание 9");
 
         double salary2 = 29000;
-        double persent = 0.01;
         double total2 = 0;
         for (int i = 1; i <= 12; i++) {
-            total2 = total2 + salary * persent;
+            total2 = total2 + salary/100;
+            total2 = total2 + salary2;
             System.out.println("Месяц " + i + " сумма накоплений ровна " + total2 + " рублей");
         }
 
